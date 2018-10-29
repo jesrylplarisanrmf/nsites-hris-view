@@ -8,6 +8,7 @@ using System.Reflection;
 
 using NSites_V.Global;
 using System.Net.Http;
+using System.Data.OleDb;
 
 namespace NSites_V.ApplicationObjects.Classes.Generics
 {
@@ -82,6 +83,7 @@ namespace NSites_V.ApplicationObjects.Classes.Generics
             get;
             set;
         }
+
         public string CheckOr
         {
             get;
@@ -404,6 +406,26 @@ namespace NSites_V.ApplicationObjects.Classes.Generics
             }
             catch { }
             return _result;
+        }
+
+        // DTR
+
+        public DataTable getTimeLogByEmployee(DateTime pDate, string pSource, string pBiometricsId)
+        {
+            DataTable _dt = new DataTable();
+            OleDbConnection connBioDB = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + pSource + ";");
+            try
+            {
+                connBioDB.Open();
+                OleDbDataAdapter _da = new OleDbDataAdapter("Select USERINFO.Badgenumber,CHECKINOUT.CHECKTIME,CHECKINOUT.CHECKTYPE from CHECKINOUT left join USERINFO on CHECKINOUT.USERID = USERINFO.USERID WHERE USERINFO.Badgenumber = '" + pBiometricsId + "' AND CHECKTIME >= CDate('" + string.Format("{0:yyyy-MM-dd}", pDate) + " 00:00:00') AND CHECKTIME <= CDate('" + string.Format("{0:yyyy-MM-dd}", pDate) + " 23:59:59') order by CHECKTIME ASC;", connBioDB);
+                _da.Fill(_dt);
+
+                return _dt;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }

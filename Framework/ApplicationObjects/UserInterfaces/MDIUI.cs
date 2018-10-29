@@ -30,6 +30,7 @@ using NSites_V.ApplicationObjects.UserInterfaces.Payrolls.Masterfiles;
 using NSites_V.ApplicationObjects.UserInterfaces.Systems;
 using NSites_V.ApplicationObjects.UserInterfaces.Systems.Masterfiles;
 using NSites_V.ApplicationObjects.UserInterfaces.Systems.Reports;
+using NSites_V.ApplicationObjects.UserInterfaces.HRISs.Transactions;
 
 namespace NSites_V.ApplicationObjects.UserInterfaces
 {
@@ -993,6 +994,15 @@ namespace NSites_V.ApplicationObjects.UserInterfaces
         private void tsmPOSMerchandising_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void tsmDailyTimeRecord_Click(object sender, EventArgs e)
+        {
+            DailyTimeRecordUI _DailyTimeRecordRegular = new DailyTimeRecordUI();
+            TabPage _ListFormTab = new TabPage();
+            _ListFormTab.ImageIndex = 15;
+            _DailyTimeRecordRegular.ParentList = this;
+            displayControlOnTab(_DailyTimeRecordRegular, _ListFormTab);
         }
     }
 }

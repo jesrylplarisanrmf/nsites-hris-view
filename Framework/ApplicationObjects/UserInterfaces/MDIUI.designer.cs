@@ -141,6 +141,7 @@
             this.mnsNSites_V.BackColor = System.Drawing.Color.Transparent;
             this.mnsNSites_V.Dock = System.Windows.Forms.DockStyle.None;
             this.mnsNSites_V.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mnsNSites_V.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.mnsNSites_V.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuHRIS,
             this.MenuPayroll,
@@ -189,7 +190,7 @@
             this.tsmEmployee201File.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsmEmployee201File.Name = "tsmEmployee201File";
             this.tsmEmployee201File.ShowShortcutKeys = false;
-            this.tsmEmployee201File.Size = new System.Drawing.Size(210, 22);
+            this.tsmEmployee201File.Size = new System.Drawing.Size(255, 28);
             this.tsmEmployee201File.Text = "Employee";
             this.tsmEmployee201File.Click += new System.EventHandler(this.tsmEmployee_Click);
             // 
@@ -198,7 +199,7 @@
             this.tsmEmploymentType.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmEmploymentType.Image = ((System.Drawing.Image)(resources.GetObject("tsmEmploymentType.Image")));
             this.tsmEmploymentType.Name = "tsmEmploymentType";
-            this.tsmEmploymentType.Size = new System.Drawing.Size(210, 22);
+            this.tsmEmploymentType.Size = new System.Drawing.Size(255, 28);
             this.tsmEmploymentType.Text = "Employment Type";
             this.tsmEmploymentType.Click += new System.EventHandler(this.tsmEmploymentType_Click);
             // 
@@ -207,7 +208,7 @@
             this.tsmDesignation.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmDesignation.Image = ((System.Drawing.Image)(resources.GetObject("tsmDesignation.Image")));
             this.tsmDesignation.Name = "tsmDesignation";
-            this.tsmDesignation.Size = new System.Drawing.Size(210, 22);
+            this.tsmDesignation.Size = new System.Drawing.Size(255, 28);
             this.tsmDesignation.Text = "Designation";
             this.tsmDesignation.Click += new System.EventHandler(this.tsmDesignation_Click);
             // 
@@ -216,7 +217,7 @@
             this.tsmDepartment.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmDepartment.Image = ((System.Drawing.Image)(resources.GetObject("tsmDepartment.Image")));
             this.tsmDepartment.Name = "tsmDepartment";
-            this.tsmDepartment.Size = new System.Drawing.Size(210, 22);
+            this.tsmDepartment.Size = new System.Drawing.Size(255, 28);
             this.tsmDepartment.Text = "Department";
             this.tsmDepartment.Click += new System.EventHandler(this.tsmDepartment_Click);
             // 
@@ -225,7 +226,7 @@
             this.tsmWorkSchedule.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmWorkSchedule.Image = ((System.Drawing.Image)(resources.GetObject("tsmWorkSchedule.Image")));
             this.tsmWorkSchedule.Name = "tsmWorkSchedule";
-            this.tsmWorkSchedule.Size = new System.Drawing.Size(210, 22);
+            this.tsmWorkSchedule.Size = new System.Drawing.Size(255, 28);
             this.tsmWorkSchedule.Text = "Work Schedule";
             this.tsmWorkSchedule.Click += new System.EventHandler(this.tsmWorkSchedule_Click);
             // 
@@ -234,7 +235,7 @@
             this.tsmLeaveType.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmLeaveType.Image = ((System.Drawing.Image)(resources.GetObject("tsmLeaveType.Image")));
             this.tsmLeaveType.Name = "tsmLeaveType";
-            this.tsmLeaveType.Size = new System.Drawing.Size(210, 22);
+            this.tsmLeaveType.Size = new System.Drawing.Size(255, 28);
             this.tsmLeaveType.Text = "Leave Type";
             this.tsmLeaveType.Click += new System.EventHandler(this.tsmLeaveType_Click);
             // 
@@ -243,21 +244,21 @@
             this.tsmHoliday.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmHoliday.Image = ((System.Drawing.Image)(resources.GetObject("tsmHoliday.Image")));
             this.tsmHoliday.Name = "tsmHoliday";
-            this.tsmHoliday.Size = new System.Drawing.Size(210, 22);
+            this.tsmHoliday.Size = new System.Drawing.Size(255, 28);
             this.tsmHoliday.Text = "Holiday";
             this.tsmHoliday.Click += new System.EventHandler(this.tsmHoliday_Click);
             // 
             // toolStripSeparator14
             // 
             this.toolStripSeparator14.Name = "toolStripSeparator14";
-            this.toolStripSeparator14.Size = new System.Drawing.Size(207, 6);
+            this.toolStripSeparator14.Size = new System.Drawing.Size(252, 6);
             // 
             // tsmEmployeeKiosk
             // 
             this.tsmEmployeeKiosk.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmEmployeeKiosk.Image = ((System.Drawing.Image)(resources.GetObject("tsmEmployeeKiosk.Image")));
             this.tsmEmployeeKiosk.Name = "tsmEmployeeKiosk";
-            this.tsmEmployeeKiosk.Size = new System.Drawing.Size(210, 22);
+            this.tsmEmployeeKiosk.Size = new System.Drawing.Size(255, 28);
             this.tsmEmployeeKiosk.Text = "Employee Kiosk";
             // 
             // tsmDailyTimeRecord
@@ -265,15 +266,16 @@
             this.tsmDailyTimeRecord.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmDailyTimeRecord.Image = ((System.Drawing.Image)(resources.GetObject("tsmDailyTimeRecord.Image")));
             this.tsmDailyTimeRecord.Name = "tsmDailyTimeRecord";
-            this.tsmDailyTimeRecord.Size = new System.Drawing.Size(210, 22);
+            this.tsmDailyTimeRecord.Size = new System.Drawing.Size(255, 28);
             this.tsmDailyTimeRecord.Text = "Daily Time Record";
+            this.tsmDailyTimeRecord.Click += new System.EventHandler(this.tsmDailyTimeRecord_Click);
             // 
             // tsmCOAEntry
             // 
             this.tsmCOAEntry.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmCOAEntry.Image = ((System.Drawing.Image)(resources.GetObject("tsmCOAEntry.Image")));
             this.tsmCOAEntry.Name = "tsmCOAEntry";
-            this.tsmCOAEntry.Size = new System.Drawing.Size(210, 22);
+            this.tsmCOAEntry.Size = new System.Drawing.Size(255, 28);
             this.tsmCOAEntry.Text = "COA Entry";
             // 
             // tsmLeaveEntry
@@ -281,7 +283,7 @@
             this.tsmLeaveEntry.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmLeaveEntry.Image = ((System.Drawing.Image)(resources.GetObject("tsmLeaveEntry.Image")));
             this.tsmLeaveEntry.Name = "tsmLeaveEntry";
-            this.tsmLeaveEntry.Size = new System.Drawing.Size(210, 22);
+            this.tsmLeaveEntry.Size = new System.Drawing.Size(255, 28);
             this.tsmLeaveEntry.Text = "Leave Entry";
             // 
             // tsmOvertimeEntry
@@ -289,7 +291,7 @@
             this.tsmOvertimeEntry.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmOvertimeEntry.Image = ((System.Drawing.Image)(resources.GetObject("tsmOvertimeEntry.Image")));
             this.tsmOvertimeEntry.Name = "tsmOvertimeEntry";
-            this.tsmOvertimeEntry.Size = new System.Drawing.Size(210, 22);
+            this.tsmOvertimeEntry.Size = new System.Drawing.Size(255, 28);
             this.tsmOvertimeEntry.Text = "Overtime Entry";
             this.tsmOvertimeEntry.Click += new System.EventHandler(this.tsmAuditTrail_Click);
             // 
@@ -298,7 +300,7 @@
             this.tsmHolidayEntry.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmHolidayEntry.Image = ((System.Drawing.Image)(resources.GetObject("tsmHolidayEntry.Image")));
             this.tsmHolidayEntry.Name = "tsmHolidayEntry";
-            this.tsmHolidayEntry.Size = new System.Drawing.Size(210, 22);
+            this.tsmHolidayEntry.Size = new System.Drawing.Size(255, 28);
             this.tsmHolidayEntry.Text = "Holiday Entry";
             // 
             // tsmPostDTR
@@ -306,26 +308,26 @@
             this.tsmPostDTR.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmPostDTR.Image = ((System.Drawing.Image)(resources.GetObject("tsmPostDTR.Image")));
             this.tsmPostDTR.Name = "tsmPostDTR";
-            this.tsmPostDTR.Size = new System.Drawing.Size(210, 22);
+            this.tsmPostDTR.Size = new System.Drawing.Size(255, 28);
             this.tsmPostDTR.Text = "Post DTR";
             // 
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(207, 6);
+            this.toolStripSeparator8.Size = new System.Drawing.Size(252, 6);
             // 
             // tsmAttendanceSummary
             // 
             this.tsmAttendanceSummary.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmAttendanceSummary.Image = ((System.Drawing.Image)(resources.GetObject("tsmAttendanceSummary.Image")));
             this.tsmAttendanceSummary.Name = "tsmAttendanceSummary";
-            this.tsmAttendanceSummary.Size = new System.Drawing.Size(210, 22);
+            this.tsmAttendanceSummary.Size = new System.Drawing.Size(255, 28);
             this.tsmAttendanceSummary.Text = "Attendance Summary";
             // 
             // toolStripSeparator9
             // 
             this.toolStripSeparator9.Name = "toolStripSeparator9";
-            this.toolStripSeparator9.Size = new System.Drawing.Size(207, 6);
+            this.toolStripSeparator9.Size = new System.Drawing.Size(252, 6);
             this.toolStripSeparator9.Visible = false;
             // 
             // tsmHRISConfiguration
@@ -333,7 +335,7 @@
             this.tsmHRISConfiguration.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmHRISConfiguration.Image = ((System.Drawing.Image)(resources.GetObject("tsmHRISConfiguration.Image")));
             this.tsmHRISConfiguration.Name = "tsmHRISConfiguration";
-            this.tsmHRISConfiguration.Size = new System.Drawing.Size(210, 22);
+            this.tsmHRISConfiguration.Size = new System.Drawing.Size(255, 28);
             this.tsmHRISConfiguration.Text = "HRIS Configuration";
             this.tsmHRISConfiguration.Visible = false;
             // 
@@ -357,7 +359,7 @@
             this.MenuPayroll.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold);
             this.MenuPayroll.Name = "MenuPayroll";
             this.MenuPayroll.Padding = new System.Windows.Forms.Padding(40, 0, 20, 0);
-            this.MenuPayroll.Size = new System.Drawing.Size(121, 37);
+            this.MenuPayroll.Size = new System.Drawing.Size(138, 37);
             this.MenuPayroll.Text = "&Payroll";
             // 
             // tsmEarningType
@@ -367,7 +369,7 @@
             this.tsmEarningType.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsmEarningType.Name = "tsmEarningType";
             this.tsmEarningType.ShowShortcutKeys = false;
-            this.tsmEarningType.Size = new System.Drawing.Size(204, 22);
+            this.tsmEarningType.Size = new System.Drawing.Size(247, 28);
             this.tsmEarningType.Text = "Earning Type";
             this.tsmEarningType.Click += new System.EventHandler(this.tsmEarningType_Click);
             // 
@@ -378,7 +380,7 @@
             this.tsmDeductionType.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsmDeductionType.Name = "tsmDeductionType";
             this.tsmDeductionType.ShowShortcutKeys = false;
-            this.tsmDeductionType.Size = new System.Drawing.Size(204, 22);
+            this.tsmDeductionType.Size = new System.Drawing.Size(247, 28);
             this.tsmDeductionType.Text = "Deduction Type";
             this.tsmDeductionType.Click += new System.EventHandler(this.tsmDeductionType_Click);
             // 
@@ -389,7 +391,7 @@
             this.tsmTaxType.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsmTaxType.Name = "tsmTaxType";
             this.tsmTaxType.ShowShortcutKeys = false;
-            this.tsmTaxType.Size = new System.Drawing.Size(204, 22);
+            this.tsmTaxType.Size = new System.Drawing.Size(247, 28);
             this.tsmTaxType.Text = "Tax Type";
             this.tsmTaxType.Click += new System.EventHandler(this.tsmTaxType_Click);
             // 
@@ -400,14 +402,14 @@
             this.tsmIncomeTaxTable.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsmIncomeTaxTable.Name = "tsmIncomeTaxTable";
             this.tsmIncomeTaxTable.ShowShortcutKeys = false;
-            this.tsmIncomeTaxTable.Size = new System.Drawing.Size(204, 22);
+            this.tsmIncomeTaxTable.Size = new System.Drawing.Size(247, 28);
             this.tsmIncomeTaxTable.Text = "Income Tax Table";
             this.tsmIncomeTaxTable.Click += new System.EventHandler(this.tsmIncomeTaxTable_Click);
             // 
             // toolStripSeparator15
             // 
             this.toolStripSeparator15.Name = "toolStripSeparator15";
-            this.toolStripSeparator15.Size = new System.Drawing.Size(201, 6);
+            this.toolStripSeparator15.Size = new System.Drawing.Size(244, 6);
             // 
             // tsmPayrollProcess
             // 
@@ -416,7 +418,7 @@
             this.tsmPayrollProcess.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsmPayrollProcess.Name = "tsmPayrollProcess";
             this.tsmPayrollProcess.ShowShortcutKeys = false;
-            this.tsmPayrollProcess.Size = new System.Drawing.Size(204, 22);
+            this.tsmPayrollProcess.Size = new System.Drawing.Size(247, 28);
             this.tsmPayrollProcess.Text = "Payroll Process";
             // 
             // tsmPostPayroll
@@ -426,13 +428,13 @@
             this.tsmPostPayroll.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsmPostPayroll.Name = "tsmPostPayroll";
             this.tsmPostPayroll.ShowShortcutKeys = false;
-            this.tsmPostPayroll.Size = new System.Drawing.Size(204, 22);
+            this.tsmPostPayroll.Size = new System.Drawing.Size(247, 28);
             this.tsmPostPayroll.Text = "Post Payroll";
             // 
             // toolStripSeparator17
             // 
             this.toolStripSeparator17.Name = "toolStripSeparator17";
-            this.toolStripSeparator17.Size = new System.Drawing.Size(201, 6);
+            this.toolStripSeparator17.Size = new System.Drawing.Size(244, 6);
             // 
             // tsmPayrollSummary
             // 
@@ -441,7 +443,7 @@
             this.tsmPayrollSummary.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsmPayrollSummary.Name = "tsmPayrollSummary";
             this.tsmPayrollSummary.ShowShortcutKeys = false;
-            this.tsmPayrollSummary.Size = new System.Drawing.Size(204, 22);
+            this.tsmPayrollSummary.Size = new System.Drawing.Size(247, 28);
             this.tsmPayrollSummary.Text = "Payroll Summary";
             // 
             // tsmPayslip
@@ -451,7 +453,7 @@
             this.tsmPayslip.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsmPayslip.Name = "tsmPayslip";
             this.tsmPayslip.ShowShortcutKeys = false;
-            this.tsmPayslip.Size = new System.Drawing.Size(204, 22);
+            this.tsmPayslip.Size = new System.Drawing.Size(247, 28);
             this.tsmPayslip.Text = "Payslip";
             // 
             // tsmStatutoryRemittances
@@ -461,7 +463,7 @@
             this.tsmStatutoryRemittances.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsmStatutoryRemittances.Name = "tsmStatutoryRemittances";
             this.tsmStatutoryRemittances.ShowShortcutKeys = false;
-            this.tsmStatutoryRemittances.Size = new System.Drawing.Size(204, 22);
+            this.tsmStatutoryRemittances.Size = new System.Drawing.Size(247, 28);
             this.tsmStatutoryRemittances.Text = "Statutory Remittances";
             // 
             // tsmLoanRemittances
@@ -471,13 +473,13 @@
             this.tsmLoanRemittances.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsmLoanRemittances.Name = "tsmLoanRemittances";
             this.tsmLoanRemittances.ShowShortcutKeys = false;
-            this.tsmLoanRemittances.Size = new System.Drawing.Size(204, 22);
+            this.tsmLoanRemittances.Size = new System.Drawing.Size(247, 28);
             this.tsmLoanRemittances.Text = "Loan Remittances";
             // 
             // toolStripSeparator20
             // 
             this.toolStripSeparator20.Name = "toolStripSeparator20";
-            this.toolStripSeparator20.Size = new System.Drawing.Size(201, 6);
+            this.toolStripSeparator20.Size = new System.Drawing.Size(244, 6);
             // 
             // tsmPayrollConfiguration
             // 
@@ -486,7 +488,7 @@
             this.tsmPayrollConfiguration.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsmPayrollConfiguration.Name = "tsmPayrollConfiguration";
             this.tsmPayrollConfiguration.ShowShortcutKeys = false;
-            this.tsmPayrollConfiguration.Size = new System.Drawing.Size(204, 22);
+            this.tsmPayrollConfiguration.Size = new System.Drawing.Size(247, 28);
             this.tsmPayrollConfiguration.Text = "Payroll Configuration";
             // 
             // MenuSystem
@@ -520,7 +522,7 @@
             this.tsmUser.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmUser.Image = ((System.Drawing.Image)(resources.GetObject("tsmUser.Image")));
             this.tsmUser.Name = "tsmUser";
-            this.tsmUser.Size = new System.Drawing.Size(240, 22);
+            this.tsmUser.Size = new System.Drawing.Size(295, 28);
             this.tsmUser.Text = "User";
             this.tsmUser.Click += new System.EventHandler(this.tsmUser_Click);
             // 
@@ -529,21 +531,21 @@
             this.tsmUserGroup.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmUserGroup.Image = ((System.Drawing.Image)(resources.GetObject("tsmUserGroup.Image")));
             this.tsmUserGroup.Name = "tsmUserGroup";
-            this.tsmUserGroup.Size = new System.Drawing.Size(240, 22);
+            this.tsmUserGroup.Size = new System.Drawing.Size(295, 28);
             this.tsmUserGroup.Text = "User Group";
             this.tsmUserGroup.Click += new System.EventHandler(this.tsmUserGroup_Click);
             // 
             // toolStripSeparator21
             // 
             this.toolStripSeparator21.Name = "toolStripSeparator21";
-            this.toolStripSeparator21.Size = new System.Drawing.Size(237, 6);
+            this.toolStripSeparator21.Size = new System.Drawing.Size(292, 6);
             // 
             // tsmChangeUserPassword
             // 
             this.tsmChangeUserPassword.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmChangeUserPassword.Image = ((System.Drawing.Image)(resources.GetObject("tsmChangeUserPassword.Image")));
             this.tsmChangeUserPassword.Name = "tsmChangeUserPassword";
-            this.tsmChangeUserPassword.Size = new System.Drawing.Size(240, 22);
+            this.tsmChangeUserPassword.Size = new System.Drawing.Size(295, 28);
             this.tsmChangeUserPassword.Text = "Change User Password";
             this.tsmChangeUserPassword.Click += new System.EventHandler(this.tsmChangeUserPassword_Click);
             // 
@@ -552,7 +554,7 @@
             this.tsmScreenSaver.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmScreenSaver.Image = ((System.Drawing.Image)(resources.GetObject("tsmScreenSaver.Image")));
             this.tsmScreenSaver.Name = "tsmScreenSaver";
-            this.tsmScreenSaver.Size = new System.Drawing.Size(240, 22);
+            this.tsmScreenSaver.Size = new System.Drawing.Size(295, 28);
             this.tsmScreenSaver.Text = "Screen Saver";
             this.tsmScreenSaver.Click += new System.EventHandler(this.tsmScreenSaver_Click);
             // 
@@ -561,7 +563,7 @@
             this.tsmLockScreen.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmLockScreen.Image = ((System.Drawing.Image)(resources.GetObject("tsmLockScreen.Image")));
             this.tsmLockScreen.Name = "tsmLockScreen";
-            this.tsmLockScreen.Size = new System.Drawing.Size(240, 22);
+            this.tsmLockScreen.Size = new System.Drawing.Size(295, 28);
             this.tsmLockScreen.Text = "Lock Screen";
             this.tsmLockScreen.Click += new System.EventHandler(this.tsmLockScreen_Click);
             // 
@@ -570,7 +572,7 @@
             this.tsmBackupRestoreDatabase.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmBackupRestoreDatabase.Image = ((System.Drawing.Image)(resources.GetObject("tsmBackupRestoreDatabase.Image")));
             this.tsmBackupRestoreDatabase.Name = "tsmBackupRestoreDatabase";
-            this.tsmBackupRestoreDatabase.Size = new System.Drawing.Size(240, 22);
+            this.tsmBackupRestoreDatabase.Size = new System.Drawing.Size(295, 28);
             this.tsmBackupRestoreDatabase.Text = "Backup / Restore Database";
             this.tsmBackupRestoreDatabase.Click += new System.EventHandler(this.tsmBackupRestoreDatabase_Click);
             // 
@@ -579,49 +581,49 @@
             this.tsmTechnicalUpdate.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmTechnicalUpdate.Image = ((System.Drawing.Image)(resources.GetObject("tsmTechnicalUpdate.Image")));
             this.tsmTechnicalUpdate.Name = "tsmTechnicalUpdate";
-            this.tsmTechnicalUpdate.Size = new System.Drawing.Size(240, 22);
+            this.tsmTechnicalUpdate.Size = new System.Drawing.Size(295, 28);
             this.tsmTechnicalUpdate.Text = "Technical Update";
             this.tsmTechnicalUpdate.Click += new System.EventHandler(this.tsmTechnicalUpdate_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(237, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(292, 6);
             // 
             // tsmAuditTrail
             // 
             this.tsmAuditTrail.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmAuditTrail.Image = ((System.Drawing.Image)(resources.GetObject("tsmAuditTrail.Image")));
             this.tsmAuditTrail.Name = "tsmAuditTrail";
-            this.tsmAuditTrail.Size = new System.Drawing.Size(240, 22);
+            this.tsmAuditTrail.Size = new System.Drawing.Size(295, 28);
             this.tsmAuditTrail.Text = "Audit Trail";
             this.tsmAuditTrail.Click += new System.EventHandler(this.tsmAuditTrail_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(237, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(292, 6);
             // 
             // tsmSystemConfiguration
             // 
             this.tsmSystemConfiguration.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmSystemConfiguration.Image = ((System.Drawing.Image)(resources.GetObject("tsmSystemConfiguration.Image")));
             this.tsmSystemConfiguration.Name = "tsmSystemConfiguration";
-            this.tsmSystemConfiguration.Size = new System.Drawing.Size(240, 22);
+            this.tsmSystemConfiguration.Size = new System.Drawing.Size(295, 28);
             this.tsmSystemConfiguration.Text = "System Configuration";
             this.tsmSystemConfiguration.Click += new System.EventHandler(this.tsmSystemConfiguration_Click);
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(237, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(292, 6);
             // 
             // tsmExit
             // 
             this.tsmExit.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmExit.Image = ((System.Drawing.Image)(resources.GetObject("tsmExit.Image")));
             this.tsmExit.Name = "tsmExit";
-            this.tsmExit.Size = new System.Drawing.Size(240, 22);
+            this.tsmExit.Size = new System.Drawing.Size(295, 28);
             this.tsmExit.Text = "Exit";
             this.tsmExit.Click += new System.EventHandler(this.tsmExit_Click);
             // 
@@ -630,10 +632,10 @@
             this.tbpHome.Controls.Add(this.pnlDashboard);
             this.tbpHome.Controls.Add(this.pctScreenSaver);
             this.tbpHome.ImageIndex = 0;
-            this.tbpHome.Location = new System.Drawing.Point(4, 26);
+            this.tbpHome.Location = new System.Drawing.Point(4, 30);
             this.tbpHome.Name = "tbpHome";
             this.tbpHome.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpHome.Size = new System.Drawing.Size(1208, 390);
+            this.tbpHome.Size = new System.Drawing.Size(1208, 386);
             this.tbpHome.TabIndex = 0;
             this.tbpHome.Text = "Home";
             this.tbpHome.UseVisualStyleBackColor = true;
@@ -643,7 +645,7 @@
             this.pnlDashboard.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlDashboard.Location = new System.Drawing.Point(3, 3);
             this.pnlDashboard.Name = "pnlDashboard";
-            this.pnlDashboard.Size = new System.Drawing.Size(1202, 384);
+            this.pnlDashboard.Size = new System.Drawing.Size(1202, 380);
             this.pnlDashboard.TabIndex = 1;
             this.pnlDashboard.Visible = false;
             // 
@@ -652,7 +654,7 @@
             this.pctScreenSaver.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pctScreenSaver.Location = new System.Drawing.Point(3, 3);
             this.pctScreenSaver.Name = "pctScreenSaver";
-            this.pctScreenSaver.Size = new System.Drawing.Size(1202, 384);
+            this.pctScreenSaver.Size = new System.Drawing.Size(1202, 380);
             this.pctScreenSaver.TabIndex = 0;
             this.pctScreenSaver.TabStop = false;
             // 
@@ -820,7 +822,7 @@
             // 
             // MDINSites_VUI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1219, 505);
             this.Controls.Add(this.pnlMenu);

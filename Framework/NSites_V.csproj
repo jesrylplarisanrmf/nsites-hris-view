@@ -92,6 +92,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationObjects\Classes\HRISs\DailyTimeRecord.cs" />
     <Compile Include="ApplicationObjects\Classes\HRISs\WorkSchedule.cs" />
     <Compile Include="ApplicationObjects\Classes\Payrolls\IncomeTaxTable.cs" />
     <Compile Include="ApplicationObjects\Classes\Payrolls\TaxType.cs" />
@@ -125,6 +126,78 @@
     </Compile>
     <Compile Include="ApplicationObjects\UserInterfaces\HRISs\Masterfiles\WorkScheduleDetailUI.Designer.cs">
       <DependentUpon>WorkScheduleDetailUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationObjects\UserInterfaces\HRISs\Reports\TransactionRpt\DailyTimeRecordRpt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ApplicationObjects\UserInterfaces\HRISs\Reports\TransactionRpt\DailyTimeRecordRpt1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DailyTimeRecordRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ApplicationObjects\UserInterfaces\HRISs\Reports\TransactionRpt\EmployeesAttendanceRpt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ApplicationObjects\UserInterfaces\HRISs\Reports\TransactionRpt\EmployeesAttendanceRpt1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmployeesAttendanceRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ApplicationObjects\UserInterfaces\HRISs\Reports\TransactionRpt\HolidayEntryRpt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ApplicationObjects\UserInterfaces\HRISs\Reports\TransactionRpt\HolidayEntryRpt1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HolidayEntryRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ApplicationObjects\UserInterfaces\HRISs\Reports\TransactionRpt\LeaveEntryRpt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ApplicationObjects\UserInterfaces\HRISs\Reports\TransactionRpt\LeaveEntryRpt1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LeaveEntryRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ApplicationObjects\UserInterfaces\HRISs\Reports\TransactionRpt\OfficialBusinessEntryRpt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ApplicationObjects\UserInterfaces\HRISs\Reports\TransactionRpt\OfficialBusinessEntryRpt1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OfficialBusinessEntryRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ApplicationObjects\UserInterfaces\HRISs\Reports\TransactionRpt\OvertimeEntryRpt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ApplicationObjects\UserInterfaces\HRISs\Reports\TransactionRpt\OvertimeEntryRpt1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OvertimeEntryRpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ApplicationObjects\UserInterfaces\HRISs\Transactions\ChangeShiftScheduleUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationObjects\UserInterfaces\HRISs\Transactions\ChangeShiftScheduleUI.Designer.cs">
+      <DependentUpon>ChangeShiftScheduleUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationObjects\UserInterfaces\HRISs\Transactions\DailyTimeRecordUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationObjects\UserInterfaces\HRISs\Transactions\DailyTimeRecordUI.Designer.cs">
+      <DependentUpon>DailyTimeRecordUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationObjects\UserInterfaces\HRISs\Transactions\Details\TimeLogUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationObjects\UserInterfaces\HRISs\Transactions\Details\TimeLogUI.Designer.cs">
+      <DependentUpon>TimeLogUI.cs</DependentUpon>
     </Compile>
     <Compile Include="ApplicationObjects\UserInterfaces\Payrolls\Masterfiles\DeductionTypeDetailUI.cs">
       <SubType>Form</SubType>
@@ -195,7 +268,6 @@
     </Compile>
     <Compile Include="ApplicationObjects\UserInterfaces\Generics\DataSet1.cs">
       <DependentUpon>DataSet1.xsd</DependentUpon>
-      <SubType>Component</SubType>
     </Compile>
     <Compile Include="ApplicationObjects\UserInterfaces\Generics\DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -397,6 +469,39 @@
     <EmbeddedResource Include="ApplicationObjects\UserInterfaces\HRISs\Masterfiles\WorkScheduleDetailUI.resx">
       <DependentUpon>WorkScheduleDetailUI.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationObjects\UserInterfaces\HRISs\Reports\TransactionRpt\DailyTimeRecordRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DailyTimeRecordRpt1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationObjects\UserInterfaces\HRISs\Reports\TransactionRpt\EmployeesAttendanceRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EmployeesAttendanceRpt1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationObjects\UserInterfaces\HRISs\Reports\TransactionRpt\HolidayEntryRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>HolidayEntryRpt1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationObjects\UserInterfaces\HRISs\Reports\TransactionRpt\LeaveEntryRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LeaveEntryRpt1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationObjects\UserInterfaces\HRISs\Reports\TransactionRpt\OfficialBusinessEntryRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>OfficialBusinessEntryRpt1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationObjects\UserInterfaces\HRISs\Reports\TransactionRpt\OvertimeEntryRpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>OvertimeEntryRpt1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationObjects\UserInterfaces\HRISs\Transactions\ChangeShiftScheduleUI.resx">
+      <DependentUpon>ChangeShiftScheduleUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationObjects\UserInterfaces\HRISs\Transactions\DailyTimeRecordUI.resx">
+      <DependentUpon>DailyTimeRecordUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationObjects\UserInterfaces\HRISs\Transactions\Details\TimeLogUI.resx">
+      <DependentUpon>TimeLogUI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ApplicationObjects\UserInterfaces\Payrolls\Masterfiles\DeductionTypeDetailUI.resx">
       <DependentUpon>DeductionTypeDetailUI.cs</DependentUpon>
     </EmbeddedResource>
@@ -597,8 +702,6 @@
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ApplicationObjects\UserInterfaces\HRISs\Reports\" />
-    <Folder Include="ApplicationObjects\UserInterfaces\HRISs\Transactions\Details\" />
     <Folder Include="ApplicationObjects\UserInterfaces\Payrolls\Reports\" />
     <Folder Include="ApplicationObjects\UserInterfaces\Payrolls\Transactions\Details\" />
   </ItemGroup>
