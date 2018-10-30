@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DailyTimeRecordUI));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.cboEmploymentType = new System.Windows.Forms.ComboBox();
@@ -144,14 +144,14 @@
             this.dgvEmployeeList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dgvEmployeeList.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dgvEmployeeList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvEmployeeList.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvEmployeeList.DefaultCellStyle = dataGridViewCellStyle1;
             this.dgvEmployeeList.Location = new System.Drawing.Point(1, 95);
             this.dgvEmployeeList.MultiSelect = false;
             this.dgvEmployeeList.Name = "dgvEmployeeList";
@@ -211,23 +211,23 @@
             this.dgvDailyTimeRecord.AllowUserToResizeRows = false;
             this.dgvDailyTimeRecord.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dgvDailyTimeRecord.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvDailyTimeRecord.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvDailyTimeRecord.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvDailyTimeRecord.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvDailyTimeRecord.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.MenuHighlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvDailyTimeRecord.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvDailyTimeRecord.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvDailyTimeRecord.Location = new System.Drawing.Point(0, 0);
             this.dgvDailyTimeRecord.MultiSelect = false;
@@ -387,14 +387,14 @@
             // tsmiLate4hrs
             // 
             this.tsmiLate4hrs.Name = "tsmiLate4hrs";
-            this.tsmiLate4hrs.Size = new System.Drawing.Size(216, 26);
+            this.tsmiLate4hrs.Size = new System.Drawing.Size(118, 26);
             this.tsmiLate4hrs.Text = "4 hrs.";
             this.tsmiLate4hrs.Click += new System.EventHandler(this.tsmiLate4hrs_Click);
             // 
             // tsmiLate8hrs
             // 
             this.tsmiLate8hrs.Name = "tsmiLate8hrs";
-            this.tsmiLate8hrs.Size = new System.Drawing.Size(216, 26);
+            this.tsmiLate8hrs.Size = new System.Drawing.Size(118, 26);
             this.tsmiLate8hrs.Text = "8 hrs.";
             this.tsmiLate8hrs.Click += new System.EventHandler(this.tsmiLate8hrs_Click);
             // 
@@ -411,14 +411,14 @@
             // tsmiUndertime4hrs
             // 
             this.tsmiUndertime4hrs.Name = "tsmiUndertime4hrs";
-            this.tsmiUndertime4hrs.Size = new System.Drawing.Size(216, 26);
+            this.tsmiUndertime4hrs.Size = new System.Drawing.Size(118, 26);
             this.tsmiUndertime4hrs.Text = "4 hrs.";
             this.tsmiUndertime4hrs.Click += new System.EventHandler(this.tsmiUndertime4hrs_Click);
             // 
             // tsmiUndertime8hrs
             // 
             this.tsmiUndertime8hrs.Name = "tsmiUndertime8hrs";
-            this.tsmiUndertime8hrs.Size = new System.Drawing.Size(216, 26);
+            this.tsmiUndertime8hrs.Size = new System.Drawing.Size(118, 26);
             this.tsmiUndertime8hrs.Text = "8 hrs.";
             this.tsmiUndertime8hrs.Click += new System.EventHandler(this.tsmiUndertime8hrs_Click);
             // 
@@ -438,14 +438,14 @@
             // tsmiOpenTime
             // 
             this.tsmiOpenTime.Name = "tsmiOpenTime";
-            this.tsmiOpenTime.Size = new System.Drawing.Size(216, 26);
+            this.tsmiOpenTime.Size = new System.Drawing.Size(204, 26);
             this.tsmiOpenTime.Text = "Open Time";
             this.tsmiOpenTime.Click += new System.EventHandler(this.tsmiOpenTime_Click);
             // 
             // tsmiOvertime5
             // 
             this.tsmiOvertime5.Name = "tsmiOvertime5";
-            this.tsmiOvertime5.Size = new System.Drawing.Size(216, 26);
+            this.tsmiOvertime5.Size = new System.Drawing.Size(204, 26);
             this.tsmiOvertime5.Text = "5:30 pm - 7:30 pm";
             this.tsmiOvertime5.Visible = false;
             this.tsmiOvertime5.Click += new System.EventHandler(this.tsmiOvertime5_Click);
@@ -453,7 +453,7 @@
             // tsmOvertime6
             // 
             this.tsmOvertime6.Name = "tsmOvertime6";
-            this.tsmOvertime6.Size = new System.Drawing.Size(216, 26);
+            this.tsmOvertime6.Size = new System.Drawing.Size(204, 26);
             this.tsmOvertime6.Text = "6:30 pm - 8:30 pm";
             this.tsmOvertime6.Visible = false;
             this.tsmOvertime6.Click += new System.EventHandler(this.tsmOvertime6_Click);
@@ -476,43 +476,49 @@
             // checkInToolStripMenuItem
             // 
             this.checkInToolStripMenuItem.Name = "checkInToolStripMenuItem";
-            this.checkInToolStripMenuItem.Size = new System.Drawing.Size(173, 26);
+            this.checkInToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.checkInToolStripMenuItem.Text = "Check In";
+            this.checkInToolStripMenuItem.Click += new System.EventHandler(this.checkInToolStripMenuItem_Click);
             // 
             // breakOutToolStripMenuItem
             // 
             this.breakOutToolStripMenuItem.Name = "breakOutToolStripMenuItem";
-            this.breakOutToolStripMenuItem.Size = new System.Drawing.Size(173, 26);
+            this.breakOutToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.breakOutToolStripMenuItem.Text = "Break Out";
+            this.breakOutToolStripMenuItem.Click += new System.EventHandler(this.breakOutToolStripMenuItem_Click);
             // 
             // breakInToolStripMenuItem
             // 
             this.breakInToolStripMenuItem.Name = "breakInToolStripMenuItem";
-            this.breakInToolStripMenuItem.Size = new System.Drawing.Size(173, 26);
+            this.breakInToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.breakInToolStripMenuItem.Text = "Break In";
+            this.breakInToolStripMenuItem.Click += new System.EventHandler(this.breakInToolStripMenuItem_Click);
             // 
             // checkOutToolStripMenuItem
             // 
             this.checkOutToolStripMenuItem.Name = "checkOutToolStripMenuItem";
-            this.checkOutToolStripMenuItem.Size = new System.Drawing.Size(173, 26);
+            this.checkOutToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.checkOutToolStripMenuItem.Text = "Check Out";
+            this.checkOutToolStripMenuItem.Click += new System.EventHandler(this.checkOutToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(170, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(213, 6);
             // 
             // overtimeInToolStripMenuItem
             // 
             this.overtimeInToolStripMenuItem.Name = "overtimeInToolStripMenuItem";
-            this.overtimeInToolStripMenuItem.Size = new System.Drawing.Size(173, 26);
+            this.overtimeInToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.overtimeInToolStripMenuItem.Text = "Overtime In";
+            this.overtimeInToolStripMenuItem.Click += new System.EventHandler(this.overtimeInToolStripMenuItem_Click);
             // 
             // overtimeOutToolStripMenuItem
             // 
             this.overtimeOutToolStripMenuItem.Name = "overtimeOutToolStripMenuItem";
-            this.overtimeOutToolStripMenuItem.Size = new System.Drawing.Size(173, 26);
+            this.overtimeOutToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.overtimeOutToolStripMenuItem.Text = "Overtime Out";
+            this.overtimeOutToolStripMenuItem.Click += new System.EventHandler(this.overtimeOutToolStripMenuItem_Click);
             // 
             // tsmiChangeShiftSchedule
             // 
